@@ -8,6 +8,6 @@ use Illuminate\Support\Facades\View;
 class HistoricalDataController extends Controller
 {
     public function show() {
-        return View::make("historical_data", []);
+        return View::make("historical_data", ["fetchedData"=>null]);
     }
 }

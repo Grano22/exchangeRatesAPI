@@ -1,6 +1,8 @@
 # Exchange Rates API
 
 ![](https://img.shields.io/badge/Wersja-1.0-blue)
+![](https://img.shields.io/badge/Node.js-v14.17.5-success)
+![](https://img.shields.io/badge/Laravel-v8.54-red)
 
 ## Informacje
 
@@ -13,5 +15,5 @@
 * ./manage/start.sh - Wystartuj projekt (LSAIL)
 * ./manage/stop.sh - zatrymaj projekt (LSAIL)
 * ./manage/revuild.sh - przebuduj projekt (LSAIL)
-* ./manage/deploy.sh - prygotuj projekt jako docker-compose jako publiczny
+* ./manage/deploy.sh - przygotuj projekt jako docker-compose jako publiczny
 * ./manage/clearLogs.sh - Wyczyść logi (LSAIL)

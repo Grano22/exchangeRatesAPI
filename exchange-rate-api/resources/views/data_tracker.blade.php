@@ -6,8 +6,7 @@
     @livewire('tracker-form')
 </section>
 <section id="req-result">
-    <h2>Wypisane dane z historii w przedziale dwóch lat</h2>
-    Paginacja z danych model
+    <h2>Wyypisane dane</h2>
     {!! $fetchedData !!}
 </section>
 
