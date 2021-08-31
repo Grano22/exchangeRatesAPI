@@ -1,4 +1,4 @@
-# [Exchange Rates API]() &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
+# [Exchange Rates API]() &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ![](https://img.shields.io/badge/Wersja-1.0-blue)
 ![](https://img.shields.io/badge/Node.js-v14.17.5-success)
