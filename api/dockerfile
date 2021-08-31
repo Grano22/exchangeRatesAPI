@@ -1,0 +1,17 @@
+FROM golang:1.16
+
+WORKDIR /go/src/api
+COPY ./ ./
+
+#RUN go get -d -v ./...
+#RUN go install -v ./...
+
+#CMD ["app"]
+
+RUN go mod init
+RUN go get -d -v ./...
+RUN go install -v ./...
+
+#CMD ["go", "run", "main.go"]
+
+CMD ["api"] --v

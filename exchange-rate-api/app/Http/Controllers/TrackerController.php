@@ -19,7 +19,7 @@ final class TrackerController extends Controller
         if($his===null) {
             $his = "Nie można pobrać danych, błąd po stronie serwera. Prosimy spróbować później";
             if(config('app.debug')) {
-                $his .= "<h3>Dane dla dewelopera</h3>" . RateExchangeProvider::getExceptionsMessages();
+                $his .= "<h3>Dane dla dewelopera:</h3><hr><pre>" . RateExchangeProvider::getExceptionsMessages() . "</pre>";
             }
         }
         return $his;

@@ -16,5 +16,8 @@
     "fast-xml-parser": "^3.19.0",
     "graphql": "^15.5.1",
     "sdmx-rest": "^2.18.0"
+  },
+  "devDependencies": {
+    "pug": "^3.0.2"
   }
 }
