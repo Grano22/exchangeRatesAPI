@@ -1,3 +1,4 @@
 trash
 .git
 .DS_STORE
+sapi/node_modules
